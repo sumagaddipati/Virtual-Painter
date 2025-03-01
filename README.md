@@ -38,25 +38,25 @@ pip install opencv-python mediapipe numpy
 
 **Usage**
 
-Run the script:
+**Run the script:**
 
 python virtual_painter.py
 
 The webcam will open, and hand tracking will begin.
 
-Color Selection:
+**Color Selection:**
 
 Move your index and middle fingers to the top toolbar to select a color.
 
 Available colors: Blue, Green, Red, Yellow, and Eraser (Black).
 
-Drawing:
+**Drawing:**
 
 Keep only the index finger up to start drawing.
 
 Move your finger across the screen to draw lines.
 
-Erasing:
+**Erasing:**
 
 Select the eraser (black) and move your finger over the drawing to erase.
 
@@ -70,9 +70,9 @@ The script captures video from the webcam and detects hand landmarks.
 
 It determines if fingers are up to classify gestures:
 
-Both index and middle fingers up → Selection Mode (choose color)
+Both index and middle fingers up → **Selection Mode (choose color)**
 
-Only index finger up → Drawing Mode
+Only index finger up → **Drawing Mode**
 
 The drawing is saved on a separate canvas and blended with the webcam feed.
 
